@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Pricing Table</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="bg-gray-100 min-h-screen flex items-center justify-center py-16 px-4"
+  >
+    <section class="max-w-6xl w-full">
+      <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold text-gray-900">Simple Pricing</h1>
+        <p class="text-gray-600 mt-4">
+          Choose the perfect plan for your business
+        </p>
+      </div>
+
+      <div class="grid gap-8 md:grid-cols-3">
+        <!-- Basic Plan -->
+        <div
+          class="bg-white rounded-3xl shadow-lg p-8 border border-gray-200 hover:shadow-2xl transition duration-300"
+        >
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">Basic</h2>
+
+          <p class="text-gray-600 mb-6">
+            Perfect for individuals and beginners.
+          </p>
+
+          <div class="mb-6">
+            <span class="text-5xl font-bold text-gray-900">$9</span>
+            <span class="text-gray-500">/month</span>
+          </div>
+
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center gap-2">✅ 1 Website</li>
+            <li class="flex items-center gap-2">✅ 10 GB Storage</li>
+            <li class="flex items-center gap-2">✅ Email Support</li>
+          </ul>
+
+          <button
+            class="w-full bg-gray-900 text-white py-3 rounded-xl hover:bg-black transition"
+          >
+            Get Started
+          </button>
+        </div>
+
+        <!-- Pro Plan -->
+        <div
+          class="bg-indigo-600 text-white rounded-3xl shadow-2xl p-8 relative scale-105"
+        >
+          <span
+            class="absolute top-4 right-4 bg-yellow-400 text-black text-xs font-bold px-3 py-1 rounded-full"
+          >
+            MOST POPULAR
+          </span>
+
+          <h2 class="text-2xl font-bold mb-4">Pro</h2>
+
+          <p class="text-indigo-100 mb-6">
+            Ideal for growing startups and teams.
+          </p>
+
+          <div class="mb-6">
+            <span class="text-5xl font-bold">$29</span>
+            <span class="text-indigo-100">/month</span>
+          </div>
+
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center gap-2">✅ 10 Websites</li>
+            <li class="flex items-center gap-2">✅ 100 GB Storage</li>
+            <li class="flex items-center gap-2">✅ Priority Support</li>
+            <li class="flex items-center gap-2">✅ Analytics Dashboard</li>
+          </ul>
+
+          <button
+            class="w-full bg-white text-indigo-600 font-semibold py-3 rounded-xl hover:bg-gray-100 transition"
+          >
+            Start Free Trial
+          </button>
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div
+          class="bg-white rounded-3xl shadow-lg p-8 border border-gray-200 hover:shadow-2xl transition duration-300"
+        >
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">Enterprise</h2>
+
+          <p class="text-gray-600 mb-6">Best for large-scale businesses.</p>
+
+          <div class="mb-6">
+            <span class="text-5xl font-bold text-gray-900">$99</span>
+            <span class="text-gray-500">/month</span>
+          </div>
+
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center gap-2">✅ Unlimited Websites</li>
+            <li class="flex items-center gap-2">✅ 1 TB Storage</li>
+            <li class="flex items-center gap-2">✅ Dedicated Support</li>
+            <li class="flex items-center gap-2">✅ Advanced Security</li>
+          </ul>
+
+          <button
+            class="w-full bg-gray-900 text-white py-3 rounded-xl hover:bg-black transition"
+          >
+            Contact Sales
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
